@@ -1,12 +1,46 @@
-# React + Vite
+# React Dev Journal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **React Dev Journal**, a modern blog website built with React, Tailwind CSS, and Vite. This project serves as a platform for React developers to explore tutorials, projects, trends, and more, with features like dark mode, search and filter functionality, email contact forms, and animate-on-scroll effects.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Pages](#pages)
+- [Configuration](#configuration)
+- [Development](#development)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Responsive Design**: Fully responsive layout using Tailwind CSS.
+- **Dark Mode**: Toggleable dark theme with persistent storage.
+- **Search and Filter**: Filter blog posts by category and search by title or excerpt.
+- **Email Contact Form**: Integrated with EmailJS to send messages to the site owner.
+- **Animate on Scroll**: Smooth animations using Framer Motion for an engaging user experience.
+- **Multiple Pages**: Home, About, Contact, Tutorials, Projects, and individual Post pages.
+- **SEO-Friendly**: Basic structure for search engine optimization.
 
-## Expanding the ESLint configuration
+## Tech Stack
+- **Frontend**: React, Vite
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Routing**: React Router DOM
+- **Email Service**: EmailJS
+- **State Management**: React useState (local state)
+- **Dependencies**: Managed with npm
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+### Prerequisites
+- Node.js (v16.x or later)
+- npm (v8.x or later)
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/react-dev-journal.git
+   cd react-dev-journal
