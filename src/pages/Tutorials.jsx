@@ -33,7 +33,7 @@ const Tutorials = ({ darkMode, setDarkMode }) => {
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
             Dive into our comprehensive React tutorials to level up your development skills. From
-            basics to advanced topics, we’ve got you covered!
+            basics to advanced topics, we've got you covered!
           </p>
           <div
             className="flex flex-col sm:flex-row gap-4 justify-center"
