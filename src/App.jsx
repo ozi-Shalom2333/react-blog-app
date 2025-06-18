@@ -7,6 +7,7 @@ import About from './pages/About';
 import Tutorials from './pages/Tutorials';
 import Projects from './pages/Projects';
 import NotFound from './pages/NotFound';
+import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,6 +22,7 @@ const App = () => {
 
   return (
     <div className="min-h-screen transition-colors duration-300">
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home darkMode={darkMode} setDarkMode={setDarkMode} />} />
         <Route path="/post/:id" element={<Post darkMode={darkMode} setDarkMode={setDarkMode} />} />
