@@ -1,6 +1,6 @@
 # React Dev Journal
 
-Welcome to **React Dev Journal**, a modern blog website built with React, Tailwind CSS, and Vite. This project serves as a platform for React developers to explore tutorials, projects, trends, and more, with features like dark mode, search and filter functionality, email contact forms, and animate-on-scroll effects.
+Welcome to **React Dev Journal**, a modern blog website built with React, Tailwind CSS, and Vite. This project serves as a platform for React developers to explore tutorials, projects, trends, and more, with features like dark mode(yet to be implemented), search and filter functionality(also yet to be implemented), email contact forms, and animate-on-scroll effects.
 
 ## Table of Contents
 - [Features](#features)
@@ -12,7 +12,6 @@ Welcome to **React Dev Journal**, a modern blog website built with React, Tailwi
 - [Configuration](#configuration)
 - [Development](#development)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Features
